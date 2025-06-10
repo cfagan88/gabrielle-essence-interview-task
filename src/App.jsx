@@ -17,6 +17,7 @@ function App() {
         </picture>
         <div className="item-info">
           <p className="item-category">Perfume</p>
+          {/* <p className="item-category">{"Perfume".toUpperCase()}</p> */}
           <h2>Gabrielle Essence Eau De Parfum</h2>
           <p className="item-desc">
             A floral, solar and voluptuous interpretation composed by Olivier
