@@ -1,8 +1,8 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -17,7 +17,6 @@ body {
   background-color: hsl(0, 0%, 100%);
   border-radius: 12px;
   margin: 20px;
-  margin-bottom: 80px;
   max-width: 400px;
   min-width: 300px;
 }
@@ -44,7 +43,7 @@ h2 {
   color: hsl(212, 21%, 14%);
   font-family: "Fraunces", serif;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 
@@ -66,7 +65,7 @@ h2 {
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
   margin-right: 30px;
 }
 
@@ -80,12 +79,11 @@ h2 {
 .add-cart-btn {
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   background-color: hsl(158, 36%, 37%);
-  transition: background-color;
   color: white;
-  font-weight: 800;
+  font-weight: 700;
   border: none;
   border-radius: 8px;
   cursor: pointer;
