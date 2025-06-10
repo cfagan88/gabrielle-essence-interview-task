@@ -22,7 +22,7 @@ function App() {
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div className="prices">
+          <div className="price-container">
             <p className="curr-price">$149.99</p>
             <p className="prev-price">$169.99</p>
           </div>

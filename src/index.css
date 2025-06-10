@@ -55,7 +55,7 @@ h2 {
   margin-bottom: 25px;
 }
 
-.prices {
+.price-container {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -66,7 +66,7 @@ h2 {
   font-family: "Fraunces", serif;
   font-size: 36px;
   font-weight: 700;
-  margin-right: 30px;
+  margin-right: 25px;
 }
 
 .prev-price {
